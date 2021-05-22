@@ -1,0 +1,102 @@
+
+* {
+	box-sizing: border-box;
+}
+/* Body */
+body{
+    background-image: url("D:/Project/img/brushed.png");
+    font-family: Inter, sans-serif;
+}
+/* Body End */
+
+/* Form-all */
+.form-all {
+	background-color: #fff;
+	border-radius: 100px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 800px;
+	margin: 72px 290.500px;
+}
+/* Form-all End */
+
+/* header-text */
+.header-text {
+	border-bottom: 1px solid #f0f0f0;
+	background-image:url("D:/Project/img/brushed.png");
+	padding: 20px 40px;
+	font-size: 20px;
+	font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 4px #000000;
+	
+}
+/* header-text end */
+
+/* From */
+.form {
+	padding: 30px 40px;	
+    background-image:url("D:/Project/img/brushed.png");
+}
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.form-control label {
+	display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 25px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+	width: 100%;
+}
+.form-control input:hover {
+	border-color: black;
+}
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+.form-control.success input {
+	border-color: #2ecc71;
+}
+.form-control.error input {
+	border-color: #e74c3c;
+}
+.form-control span {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+.form-control.error span {
+	visibility: visible;
+}
+/* From End */
+
+/* Button */
+.form .btn button {
+	background-image: url("D:/Project/img/brushed.png");
+	border: 2px solid #f0f0f0;
+	border-radius: 25px;
+	color: black;
+	display: block;
+	font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+.form .btn button:hover {
+    background: linear-gradient(to right, rgb(161, 196, 253), rgb(194, 233, 251));
+}
+/* Button End */
