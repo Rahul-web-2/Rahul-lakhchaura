@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="D:\Project\css\Login.css">
+</head>
+<body>
+<div class="form-all">
+        <div class="header-text">
+            <h1 class="form-Header">Registration Form</h1>
+            <h4 class="form-subHeader"> Fill out the form carefully for registration</h4>
+        </div>
+    <form action="D:\Project\php\connet.php" id="form"  class="form" method="POST" autocomplete="off" >
+        <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" name="user" placeholder="florinpop" id="username" />
+            <span>Error message</span>
+        </div>
+
+        <div class="form-control">
+            <label for="username">Email</label>
+            <input type="email" name="email" placeholder="example01@gmail.com" id="email" />
+            <span>Error message</span>
+        </div>
+
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Password" id="password"/>
+            <span >Error message</span>
+        </div>
+                            
+        <div class="form-control">
+            <label for="cpassword">Password check</label>
+            <input type="password" name="cpass" placeholder="Confirm Password" id="cpassword"/>
+            <span>Error message</span>
+        </div>
+
+        <div class="btn">
+            <button type="submit" onsubmit="validateForm()">Submit</button>
+            <button type="reset"onclick="window.location='#'; return false;">Reset</button>
+            <button type="cancle" onclick="window.location='#'; return false;">Cancle</button>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="D:\Project\Js\Login.js"></script>
+</body>
+</html>
